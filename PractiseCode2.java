@@ -22,12 +22,16 @@ public class PractiseCode2{
                       }
                       else{
                            System.out.println("Marks in Range of 0 to 40");
-                      }
+                        }
                     }  
                 }
                 input.close();
-            } catch (Exception e) {
-            System.out.println("Invalid Input");
-        }
+               
+            } 
+            catch (Exception e) {
+                 System.out.println("Invalid Input");
+            }     
+
+        
     }
 }
